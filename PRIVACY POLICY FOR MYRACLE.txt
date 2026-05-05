@@ -1,7 +1,7 @@
-﻿PRIVACY POLICY FOR MYRACLE.AI ON QUEST 2, QUEST PRO, AND QUEST 3
+PRIVACY POLICY FOR MYRACLE.AI ON QUEST 2, QUEST PRO, AND QUEST 3
 
 
-Myracle.ai is an immersive app developed by Cerebranium Tech Private Limited for the Meta Quest platform. We prioritize your privacy and are committed to complying with all applicable data protection regulations, including the European Union’s General Data Protection Regulation (GDPR), India’s data protection laws, and the U.S. Children’s Online Privacy Protection Act (COPPA), as our app is designed for users of all ages, including children.
+Myracle.ai is an immersive app developed by Cerebranium Tech Private Limited for the Meta Quest platform. We prioritize your privacy and are committed to complying with all applicable data protection regulations, including the European Union's General Data Protection Regulation (GDPR), India's data protection laws, and the U.S. Children's Online Privacy Protection Act (COPPA), as our app is designed for users of all ages, including children.
 
 
 Myracle.ai requires an active internet connection and uses secure authentication provided by a trusted cloud service (Firebase by Google). We only collect minimal personal information (email and password) necessary to provide a personalized and secure experience.
@@ -45,7 +45,19 @@ The limited data you provide (email and password) is used exclusively for:
 - Securing user access
 
 
-We do not sell, share, or monetize your data. No third-party providers, aside from Firebase and the temporary AI voice processing system, will have access to your personal information.
+We do not sell, share, or monetize your data. No third-party providers, aside from Firebase, the temporary AI voice processing system, and the Meta Horizon Platform (for subscription verification), will have access to your personal information.
+
+
+META PLATFORM DATA AND SUBSCRIPTIONS
+
+
+Myracle.ai integrates with the Meta Horizon Platform SDK to provide subscription-based access to premium content. In connection with this:
+
+- We retrieve your Meta User ID from the Meta Platform SDK to verify your subscription entitlement. This ID is used solely to confirm whether you have an active subscription and to unlock premium content accordingly.
+- We query your purchase and subscription status through the Meta Platform SDK to determine which content you are entitled to access.
+- Your subscription status (active/inactive) and a verification timestamp are cached locally on your device for up to 24 hours to allow the app to function correctly when offline. This cached data is not transmitted to any external server.
+- All subscription purchases are processed entirely through Meta's payment infrastructure. We do not collect, store, or process any payment details (credit card numbers, billing addresses, etc.).
+- We do not share your Meta User ID or purchase data with any third parties.
 
 
 Data Transmission
@@ -66,7 +78,7 @@ support@myracle.io
 Requests will be handled promptly. We retain user data only while the account is active.
 
 
-CHILDREN’S PRIVACY
+CHILDREN'S PRIVACY
 
 
 Myracle.ai is intended for a general audience, including children. We do not knowingly collect personal information from children under 13 without verifiable parental consent in compliance with COPPA and other global regulations.
@@ -100,6 +112,8 @@ Cerebranium Tech Private Limited ensures that:
 - Only minimal data (email and password) is collected
 - Voice data is processed temporarily and not stored
 - No personal or biometric data is retained or analyzed
+- Meta User ID and subscription status are used only for content access verification
+- Subscription data is cached locally and never shared externally
 - Internal access is limited to authorized personnel only
 
 
